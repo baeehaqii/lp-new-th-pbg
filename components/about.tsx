@@ -68,7 +68,7 @@ export default function About() {
 
             {/* Statistik - Awards */}
             <div className="about-stat-card">
-              <div className="about-stat-value">10000+</div>
+              <div className="about-stat-value">500+</div>
               <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 

@@ -13,13 +13,13 @@ export default function SitePlan() {
         <div className="siteplan-content">
           <h2 className="section-title text-primary">Site Plan</h2>
           <p className="siteplan-description">
-            Tata letak perumahan Sapphire Serenity Slawi yang strategis dan terencana dengan baik
+            Tata letak perumahan Sapphire Town House Purbalingga yang strategis dan terencana dengan baik
           </p>
 
           <div className="siteplan-image-wrapper">
             <Image
               src="/siteplan.png"
-              alt="Site Plan Sapphire Serenity Slawi"
+              alt="Site Plan Sapphire Town House Purbalingga"
               width={1200}
               height={800}
               className="siteplan-image"

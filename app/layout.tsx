@@ -6,15 +6,15 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Sapphire Serenity Slawi",
-  description: "Temukan properti impian Anda bersama Sapphire Serenity Slawi",
+  title: "Sapphire Town House Purbalingga",
+  description: "Temukan properti impian Anda bersama Sapphire Town House Purbalingga",
   icons: {
     icon: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
     shortcut: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
     apple: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
   },
   keywords: [
-    "Sapphire Serenity Slawi",
+    "Sapphire Town House Purbalingga",
     "Perumahan Slawi",
     "Rumah Slawi",
     "Sapphire Serenity",
@@ -42,7 +42,7 @@ export default function RootLayout({
           .header-nav{display:none;gap:2.5rem;flex:1;justify-content:center}
           .header-nav-link{color:#333;font-weight:500;font-size:0.95rem;transition:color 0.2s}
           .header-mobile-button{display:block;color:#333;background:none;border:none;cursor:pointer}
-          .hero-section{padding-top:5rem;position:relative;overflow:hidden}
+          .hero-section{padding-top:5rem;min-height:100vh;position:relative;overflow:hidden}
           @media(min-width:1024px){.header-nav{display:flex}.header-mobile-button{display:none}}
         `}} />
 

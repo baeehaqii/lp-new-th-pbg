@@ -15,9 +15,8 @@ export default function Header() {
       <div className="container header-container">
         <Link href="/" className="header-logo">
           <Image
-            // src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_150,h_150,c_fit,f_auto,q_auto:eco/v1757392355/sgm_v79mjj.png"
-            src="https://res.cloudinary.com/dqobwse9q/image/upload/w_150,h_150,c_fit,f_auto,q_auto:eco/v1761718373/Logo_a7wid6.webp"
-            alt="Sapphire Madani Logo"
+            src="https://res.cloudinary.com/dqobwse9q/image/upload/Logo_Sapphire_Griya_cckauk.avif"
+            alt="Sapphire Town House Purbalingga Logo"
             width={150}
             height={40}
             className="header-logo-image"
