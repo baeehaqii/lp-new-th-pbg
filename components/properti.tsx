@@ -8,6 +8,10 @@ import { useState, useMemo } from "react"
 import { BedDoubleIcon, BathIcon, LandPlotIcon, BadgeCheckIcon, XIcon, ZoomInIcon, ZoomOutIcon } from "./icons"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
+const nomorWhatsApp = "6281127010001";
+const pesan = "Halo, saya tertarik dengan properti Sapphire Town House Purbalingga";
+const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
+
 function formatIDR(value: number) {
   return value.toLocaleString('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 })
 }
@@ -988,15 +992,16 @@ export default function Properties() {
 
                     {/*<h3 className="modal-subtitle">Harga</h3>
                     <div className="modal-price">Rp {selectedProperty.price}</div>*/}
-
                     <div className="modal-cta">
-                      <Link
-                        href="https://wa.me/6281127010001?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Slawi"
-                        className="modal-cta-button"
-                      >
-                        Hubungi Kami
-                      </Link>
-                    </div>
+                    <Link
+                      href={linkWhatsApp}
+                      className="modal-cta-button"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      Hubungi Kami
+                    </Link>
+                  </div>
                   </div>
                 </>
               ) : (

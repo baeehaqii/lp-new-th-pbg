@@ -4,10 +4,10 @@ import { WhatsAppIcon } from "./icons"
 
 export default function WhatsAppFloat() {
   const handleClick = () => {
-    // Replace with your WhatsApp number (format: country code + number without + or spaces)
-    const phoneNumber = "6281127010001" // Example: Indonesian number
-    const message = encodeURIComponent("Halo, saya tertarik dengan Sapphire Townhouse Purbalingga")
-    window.open(`https://api.whatsapp.com/send/?phone=6281127010001&text=Halo%2C+saya+tertarik+dengan+properti+Sapphire+TownHouse+Purbalingga&type=phone_number&app_absent=0`, "_blank")
+    const nomorWhatsApp = "6281127010001";
+    const pesan = "Halo, saya tertarik dengan properti Sapphire Town House Purbalingga";
+    window.open(`https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`, "_blank");
+    
   }
 
   return (
