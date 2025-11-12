@@ -4,8 +4,8 @@ import { WhatsAppIcon } from "./icons"
 
 export default function WhatsAppFloat() {
   const handleClick = () => {
-    const nomorWhatsApp = "6281127010001";
-    const pesan = "Halo, saya tertarik dengan properti Sapphire Town House Purbalingga";
+    const nomorWhatsApp = "628170031130";
+    const pesan = "Halo, saya tertarik dengan properti Sapphire Madani Tegal";
     window.open(`https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`, "_blank");
     
   }
