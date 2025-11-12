@@ -98,7 +98,7 @@ export default function Gallery() {
       <div className="container">
         <h2 className="section-title">Gallery Sapphire Townhouse Purbalingga</h2>
         <p className="section-subtitle">
-          Temukan keindahan dan kenyamanan rumah impian Anda di Sapphire Townhouse Purbalingga Purbalingga. Setiap sudut dirancang dengan
+          Temukan keindahan dan kenyamanan rumah impian Anda di Sapphire Townhouse Purbalingga. Setiap sudut dirancang dengan
           perhatian terhadap detail, menciptakan ruang yang sempurna untuk hidup dan bersantai.
         </p>
 
