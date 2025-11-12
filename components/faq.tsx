@@ -82,7 +82,7 @@ export default function FAQ() {
     <section id="faq" className="faq-section">
       <div className="container">
         <div className="faq-header">
-          <h2 className="faq-title">Pertanyaan Umum Sapphire Townhouse Purbalingga</h2>
+          <h2 className="faq-title">Pertanyaan Umum Sapphire Townhouse Purbalingga Purbalingga</h2>
           <p className="faq-description">
             Temukan semua informasi yang Anda butuhkan di bagian FAQ kami.
           </p>

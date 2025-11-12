@@ -29,7 +29,7 @@ export default function About() {
               <Image
                 // src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_600,h_450,c_fill,f_auto,q_auto/v1761071337/type_90_qpwdco.avif"
                 src="https://res.cloudinary.com/dqobwse9q/image/upload/w_300,h_450,c_fill,f_auto,q_auto/v1754883016/DSC02597_rmqwaz.png"
-                alt="Sapphire Townhouse Purbalingga"
+                alt="Sapphire Townhouse Purbalingga Purbalingga"
                 width={300}
                 height={450}
                 className="about-image"
@@ -95,7 +95,7 @@ export default function About() {
               <X />
             </button>
             <div className="modal-content">
-              <h2 className="modal-title">Sapphire Townhouse Purbalingga</h2>
+              <h2 className="modal-title">Sapphire Townhouse Purbalingga Purbalingga</h2>
               <div className="modal-image">
                 <Image
                   // src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1754637078/WhatsApp_Image_2025-06-19_at_11.00.07_bvpgud.jpg"
