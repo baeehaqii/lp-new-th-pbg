@@ -8,8 +8,8 @@ import { useState, useMemo } from "react"
 import { BedDoubleIcon, BathIcon, LandPlotIcon, BadgeCheckIcon, XIcon, ZoomInIcon, ZoomOutIcon } from "./icons"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-const nomorWhatsApp = "628170031130";
-const pesan = "Halo, saya tertarik dengan properti Sapphire Madani Tegal";
+const nomorWhatsApp = "6281127010001";
+const pesan = "Halo, saya tertarik dengan properti Sapphire Town House Purbalingga";
 const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
 
 function formatIDR(value: number) {
@@ -345,231 +345,136 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
       ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841482/Screenshot_2025-10-30_231147_zwtwds.avif",
-      name: "Tipe 42/78 Saba",
-      price: "4XX.XX.XXX",
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761729628/Screenshot_2025-10-29_160919_awwawf.avif",
+      name: "Tipe 45 ",
+      price: "5XX.XX.XXX",
       bedrooms: 2,
       bathrooms: 1,
-      area: "78",
+      area: "105",
       description:
-        "Tipe 42/78 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 45/105 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
       certificate: "SHM",
     },
     {
       id: 2,
       images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
       ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841481/Screenshot_2025-10-30_231157_fyjaii.avif",
-      name: "Tipe 47/84 Saba",
-      price: "4XX.XX.XXX",
-      bedrooms: 2,
-      bathrooms: 1,
-      area: "84",
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1762280114/Screenshot_2025-11-05_011330_xw1ipf.avif",
+      name: "Tipe 57",
+      price: "8XX.XXX.XXX",
+      bedrooms: 3,
+      bathrooms: 2,
+      area: "105",
       description:
-        "Tipe 47/84 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 57/105 dengan 1 lantai menawarkan ruang yang lebih luas dengan tambahan kamar tidur, cocok untuk keluarga dengan anak. Desain modern dan berada di kawasan eksklusif.",
       certificate: "SHM",
     },
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
       ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841481/Screenshot_2025-10-30_231208_eccz6j.avif",
-      name: "Tipe 52/84 Saba",
-      price: "4XX.XX.XXX",
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761729628/Screenshot_2025-10-29_160939_nf9orc.avif",
+      name: "Tipe 51",
+      price: "9XX.XXX.XXX",
       bedrooms: 3,
       bathrooms: 2,
-      area: "84",
+      area: "51",
       description:
-        "Tipe 52/84 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 51/105 dengan 1 Lantai adalah pilihan premium dengan ruang lebih luas dan 4 kamar tidur. Ideal untuk keluarga yang membutuhkan ruang ekstra dan kenyamanan maksimal.",
       certificate: "SHM",
     },
-    {
-      id: 4,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841481/Screenshot_2025-10-30_231222_xzrlzc.avif",
-      name: "Tipe 53/84 Saba",
-      price: "4XX.XX.XXX",
-      bedrooms: 3,
-      bathrooms: 2,
-      area: "84",
-      description:
-        "Tipe 53/84 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
+        {
       id: 5,
       images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
       ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841481/Screenshot_2025-10-30_231234_dflvdt.avif",
-      name: "Tipe 58/112 Saba",
-      price: "4XX.XX.XXX",
-      bedrooms: 2,
-      bathrooms: 1,
-      area: "112",
-      description:
-        "Tipe 58/112 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
-      id: 6,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_231249_hgffil.avif",
-      name: "Tipe Studio",
-      price: "4XX.XX.XXX",
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761729627/Screenshot_2025-10-29_161010_dyiwuh.avif",
+      name: "Tipe 24/52 (1/2 Kav)",
+      price: "9XX.XXX.XXX",
       bedrooms: 1,
       bathrooms: 1,
-      area: "",
+      area: "52",
       description:
-        "Tipe Studio dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 24/52 dengan 1 Lantai adalah pilihan premium dengan ruang lebih luas dan 4 kamar tidur. Ideal untuk keluarga yang membutuhkan ruang ekstra dan kenyamanan maksimal.",
       certificate: "SHM",
     },
-    {
+        {
+      id: 6,
+      images: [
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
+      ],
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761729627/Screenshot_2025-10-29_161025_laf9ri.avif",
+      name: "Tipe 28",
+      price: "9XX.XXX.XXX",
+      bedrooms: 1,
+      bathrooms: 1,
+      area: "105",
+      description:
+        "Tipe 28/105 dengan 1 Lantai adalah pilihan premium dengan ruang lebih luas dan 4 kamar tidur. Ideal untuk keluarga yang membutuhkan ruang ekstra dan kenyamanan maksimal.",
+      certificate: "SHM",
+    },
+            {
       id: 7,
       images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_3_kvv2os.png",
+        "https://res.cloudinary.com/dqobwse9q/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1754883008/rend_4_hkpqk0.png",
       ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_231943_a63ip4.avif",
-      name: "Tipe 48/90 Palmyra",
-      price: "5XX.XX.XXX",
-      bedrooms: 2,
-      bathrooms: 1,
-      area: "90",
-      description:
-        "Tipe 48/90 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
-      id: 8,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_231956_upzxwh.avif",
-      name: "Tipe 55/108 Palmyra",
-      price: "5XX.XX.XXX",
-      bedrooms: 2,
-      bathrooms: 1,
-      area: "108",
-      description:
-        "Tipe 55/108 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
-      id: 9,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_232005_nf8mrn.avif",
-      name: "Tipe 69/108 Palmyra",
-      price: "5XX.XX.XXX",
-      bedrooms: 3,
-      bathrooms: 2,
-      area: "108",
-      description:
-        "Tipe 69/108 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
-      id: 10,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_232014_vf4aa1.avif",
-      name: "Tipe 69/135 Hook Palmyra",
-      price: "5XX.XX.XXX",
+      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761729627/Screenshot_2025-10-29_160959_cgbftn.avif",
+      name: "Tipe 67",
+      price: "9XX.XXX.XXX",
       bedrooms: 3,
       bathrooms: 1,
-      area: "135",
+      area: "105",
       description:
-        "Tipe 69/135 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
-      certificate: "SHM",
-    },
-    {
-      id: 11,
-      images: [
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755489734/madani_tegal_saba_gxht7l.png",
-        "https://res.cloudinary.com/dqobwse9q/image/upload/v1755488814/madani_tegal_palmyra_re2pyv.png",
-      ],
-      floorPlan: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841480/Screenshot_2025-10-30_232026_ua1fcl.avif",
-      name: "Tipe 90/108 Palmyra",
-      price: "5XX.XX.XXX",
-      bedrooms: 3,
-      bathrooms: 2,
-      area: "108",
-      description:
-        "Tipe 90/108 dengan 1 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 67/105 dengan 1 Lantai adalah pilihan premium dengan ruang lebih luas dan 4 kamar tidur. Ideal untuk keluarga yang membutuhkan ruang ekstra dan kenyamanan maksimal.",
       certificate: "SHM",
     },
   ]
 
   const siteplan = {
     id: "siteplan-1",
-    image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1761841486/Screenshot_2025-10-30_231105_wqqujs.avif",
-    name: "Siteplan Sapphire Madani Tegal",
+    // image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_1000,h_700,c_fill,f_auto,q_auto:eco/v1755444815/siteplane_serenity_slawi_kvzyhe.png",
+    image:"https://res.cloudinary.com/dqobwse9q/image/upload/v1761727757/Siteplan_th_purbalingga_jy9y6r.avif",
+    name: "Siteplan Sapphire Townhouse Purbalingga Purbalingga",
     description:
-      "Masterplan perumahan Sapphire Madani Tegal yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
+      "Masterplan perumahan Sapphire Townhouse Purbalingga Purbalingga yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
   }
 
-  const specificationsSaba = {
-    pondasi: " Batu kali",
-    dinding: "Bata Merah/Hebel",
+  const specifications = {
+    pondasi: "Batu kali",
+    dinding: "Bata merah/Hebel",
     lantai: "Granit tile 60×60",
-    atap: "Rangka baja ringan, genteng multiroof dan spandek",
+    atap: "Rangka baja ringan, genteng metal",
     kamarMandi: "Closet American Standard / Setara",
     septicTank:"Buis beton 80cm",
-    kusenPintu: "Aluminium 4 Inch setara Inkalum & HPL Eksterior Taco atau setara",
+    kusenPintu: "Kayu/Aluminium & Pintu Fabrikasi",
     jendela: "kaca",
-    plafon:"Rangka hollow, gypsum, list gypsum",
+    plafon: "Rangka hollow, gypsum, list gypsum",
+    carport: "Keramik",
     air: "PDAM",
-    listrik: "1300 watt",
-    mejaDapur:"50cm",
-    stopKontak:"Panasonic",
-    lampu:"Model Downlight Warmlight",
+    listrik: " 1300 watt",
+    elektrikal: "Panasonic",
+    lampu:"Model Downlight Warmwhite",
+    mejaDapur:"Granite tile 60×60",
+
+
+    // mezanin: "double hollow, lantai SPC (type 55)",
+    // fiturRumah: "kanopi rangka hollow, cover wood plank, smart door lock",
   }
 
-  const specificationsPalmyra = {
-    pondasi: " Batu kali",
-    dinding: "Bata Merah/Hebel",
-    lantai: "Granit tile 60×60",
-    atap: "Rangka baja ringan, genteng beton flat",
-    kamarMandi: "Closet American Standard / Setara",
-    septicTank:"500L untuk 1 Lantai, 1.000L untuk 2 Lantai",
-    kusenPintu: "Aluminium 4 Inch setara Alexindo & HPL Eksterior CT",
-    jendela: "kaca",
-    plafon:"Rangka hollow, gypsum, list gypsum",
-    air: "PDAM",
-    listrik: "1300 watt",
-    mejaDapur:"60cm",
-    stopKontak:"Nero",
-    lampu:"Model Downlight Warmligh",
-    tinggiPintu:"2,4M",
-    carPort:"Batu Andesit",
-
-  }
-  
   const location = {
-    // embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.152090540976!2d109.1275648!3d-6.991360799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbf007c3b46cb%3A0x5da496f205d213b2!2sSapphire%20Serenity%20Slawi!5e0!3m2!1sen!2sid!4v1761065829691!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>',
-      embed:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.2132983092697!2d109.11558769999999!3d-6.8650234999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb7a8a431fae7%3A0x1b0368ed90e6941a!2sSapphire%20Madani%20Tegal!5e0!3m2!1sid!2sid!4v1762298248824!5m2!1sid!2sid" width="120%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-    name: "Denah Lokasi Sapphire Madani Tegal",
-    description: "Lokasi strategis di pusat kota Slawi dengan akses mudah ke berbagai fasilitas umum.",
+    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.5642564407754!2d109.3746424!3d-7.398806800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6559cfd41c5e01%3A0xf3ca425516273da6!2sPerumahan%20Sapphire%20Town%20House%20Purbalingga!5e1!3m2!1sid!2sid!4v1761726450664!5m2!1sid!2sid" width="120%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+    name: "Denah Lokasi Sapphire Townhouse Purbalingga Purbalingga",
+    description: "Lokasi strategis di pusat kota Purbalingga dengan akses mudah ke berbagai fasilitas umum.",
   }
 
   interface Property {
@@ -743,9 +648,10 @@ export default function Properties() {
   return (
     <section id="tipe-rumah" className="section">
       <div className="container">
-        <h2 className="section-title">Sapphire Madani Tegal</h2>
+        <h2 className="section-title">Siteplan & Tipe Rumah</h2>
         <p className="section-subtitle">
-          Berada di Jl. Pendidikan, Pesurungan Lor, Sapphire Madani Tegal menawarkan perumahan Tegal yang memadukan kenyamanan tinggal dan kemudahan beraktivitas. Kawasan ini dekat pusat kota dan berbagai fasilitas penting, sehingga Anda bisa menjalani rutinitas tanpa harus menempuh perjalanan jauh. Dengan lokasi yang strategis dan lingkungan yang tertata, hunian ini memberi Anda tempat tinggal yang nyaman sekaligus peluang investasi yang terus berkembang seiring pesatnya pertumbuhan Kota Tegal.
+          Temukan rumah impian Anda di Sapphire Townhouse Purbalingga Purbalingga. Kami menawarkan berbagai tipe rumah yang dirancang untuk
+          memenuhi kebutuhan dan gaya hidup Anda.
         </p>
 
         <div className="property-type-container">
@@ -876,89 +782,75 @@ export default function Properties() {
               <p>{siteplan.description}</p>
             </div>
           </div>
-        
-        // --- PERUBAHAN TAMPILAN (VIEW) DIMULAI DI SINI ---
-        // Mengganti blok 'specifications-container' dengan 'property-grid'
         ) : activeType === "spesifikasi" ? (
-          <div className="property-grid">
-            {/* Card 1: Saba */}
-            <div className="property-card" style={{ borderRadius: '1.5rem', backgroundColor: 'white', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', overflow: 'hidden' }}>
-              <div style={{ position: 'relative', height: '200px' }}>
-                <Image
-                  src="https://res.cloudinary.com/dqobwse9q/image/upload/v1761842084/Screenshot_2025-10-30_233323_livwoh.avif"
-                  alt="Spesifikasi Saba"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div className="specifications-content" style={{ padding: '1.5rem' }}>
-                <h3 className="specifications-title" style={{ fontSize: '1.75rem', fontWeight: 700, color: '#831016', marginBottom: '1.5rem', marginTop: 0 }}>
-                  Spesifikasi Saba
-                </h3>
-                <div className="specifications-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                  {/* Map dari data specificationsSaba */}
-                  {Object.entries(specificationsSaba).map(([key, value]) => (
-                    <div className="specification-item" key={key} style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '0.15rem',
-                      padding: '0.6rem 0.8rem',
-                      backgroundColor: '#f9fafb',
-                      borderRadius: '0.5rem',
-                      borderLeft: '3px solid #831016'
-                    }}>
-                      <span className="specification-label" style={{ fontWeight: 700, color: '#831016', fontSize: '0.85rem', textTransform: 'capitalize' }}>
-                        {key.replace(/([A-Z])/g, ' $1')}
-                      </span>
-                      <span className="specification-value" style={{ color: '#374151', lineHeight: 1.5, fontSize: '0.8rem' }}>
-                        {value}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
+          <div className="specifications-container">
+            <div className="specifications-image">
+              <Image
+                src="https://res.cloudinary.com/dqobwse9q/image/upload/w_500,h_350,c_fill,f_auto,q_auto:eco/v1754637084/TYPE_85_1_i718cl.png"
+                alt="Spesifikasi Rumah"
+                width={600}
+                height={800}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
+              />
             </div>
-
-            {/* Card 2: Palmyra */}
-            <div className="property-card" style={{ borderRadius: '1.5rem', backgroundColor: 'white', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', overflow: 'hidden' }}>
-              <div style={{ position: 'relative', height: '200px' }}>
-                <Image
-                  src="https://res.cloudinary.com/dqobwse9q/image/upload/v1761842084/Screenshot_2025-10-30_233323_livwoh.avif"
-                  alt="Spesifikasi Palmyra"
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
-              <div className="specifications-content" style={{ padding: '1.5rem' }}>
-                <h3 className="specifications-title" style={{ fontSize: '1.75rem', fontWeight: 700, color: '#831016', marginBottom: '1.5rem', marginTop: 0 }}>
-                  Spesifikasi Palmyra
-                </h3>
-                <div className="specifications-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                  {/* Map dari data specificationsPalmyra */}
-                  {Object.entries(specificationsPalmyra).map(([key, value]) => (
-                    <div className="specification-item" key={key} style={{
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '0.15rem',
-                      padding: '0.6rem 0.8rem',
-                      backgroundColor: '#f9fafb',
-                      borderRadius: '0.5rem',
-                      borderLeft: '3px solid #831016'
-                    }}>
-                      <span className="specification-label" style={{ fontWeight: 700, color: '#831016', fontSize: '0.85rem', textTransform: 'capitalize' }}>
-                        {key.replace(/([A-Z])/g, ' $1')}
-                      </span>
-                      <span className="specification-value" style={{ color: '#374151', lineHeight: 1.5, fontSize: '0.8rem' }}>
-                        {value}
-                      </span>
-                    </div>
-                  ))}
+            <div className="specifications-content">
+              <h3 className="specifications-title">Spesifikasi Rumah</h3>
+              <div className="specifications-list">
+                <div className="specification-item">
+                  <span className="specification-label">Pondasi:</span>
+                  <span className="specification-value">{specifications.pondasi}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Dinding:</span>
+                  <span className="specification-value">{specifications.dinding}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Lantai:</span>
+                  <span className="specification-value">{specifications.lantai}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Atap:</span>
+                  <span className="specification-value">{specifications.atap}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Kamar Mandi/WC:</span>
+                  <span className="specification-value">{specifications.kamarMandi}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Kusen & Pintu:</span>
+                  <span className="specification-value">{specifications.kusenPintu}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Jendela:</span>
+                  <span className="specification-value">{specifications.jendela}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Plafon:</span>
+                  <span className="specification-value">{specifications.plafon}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Air:</span>
+                  <span className="specification-value">{specifications.air}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Listrik:</span>
+                  <span className="specification-value">{specifications.listrik}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Elektrikal:</span>
+                  <span className="specification-value">{specifications.elektrikal}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">Meja Dapur:</span>
+                  <span className="specification-value">{specifications.mejaDapur}</span>
+                </div>
+                <div className="specification-item">
+                  <span className="specification-label">lampu:</span>
+                  <span className="specification-value">{specifications.lampu}</span>
                 </div>
               </div>
             </div>
           </div>
-        // --- PERUBAHAN TAMPILAN (VIEW) SELESAI ---
-
         ) : activeType === "lokasi" ? (
           <div className="location-container">
             <div className="location-image-wrapper" onClick={openLocationModal}>
@@ -978,7 +870,7 @@ export default function Properties() {
               <p>{location.description}</p>
               <div className="location-button-container">
                 <Link
-                  href="https://maps.app.goo.gl/nBkRc22GBjEfwRN48"
+                  href="https://maps.app.goo.gl/QK5XWkFSP4nvkv7J9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-gmaps-button"
@@ -1098,9 +990,8 @@ export default function Properties() {
                       </div>
                     </div>
 
-                    {/* <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div> */}
-
+                    {/*<h3 className="modal-subtitle">Harga</h3>
+                    <div className="modal-price">Rp {selectedProperty.price}</div>*/}
                     <div className="modal-cta">
                     <Link
                       href={linkWhatsApp}

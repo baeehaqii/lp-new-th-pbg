@@ -1,8 +1,8 @@
 import { Phone, ClipboardList, Percent } from "lucide-react"
 import Link from "next/link"
 
-const nomorWhatsApp = "628170031130";
-const pesan = "Halo, saya tertarik dengan properti Sapphire Madani Tegal";
+const nomorWhatsApp = "6281127010001";
+const pesan = "Halo, saya tertarik dengan properti Sapphire Town House Purbalingga";
 const linkWhatsApp= `https://wa.me/${nomorWhatsApp}?text=${encodeURIComponent(pesan)}`;
 
 export default function CallToAction() {
@@ -10,10 +10,11 @@ export default function CallToAction() {
     <section id="cta" className="cta-section">
       <div className="container">
         <div className="cta-container">
-          <h2 className="cta-title">Siapkan Masa Anda Depan dari Sekarang</h2>
+          <h2 className="cta-title">Sudah Siap Tinggal Nyaman di Lokasi Paling Strategis Purbalingga?</h2>
           <p className="cta-description">
-            Mulai dengan hunian strategis yang memberi kemudahan hidup dan nilai investasi jangka panjang. Hubungi kami sekarang juga!
+            Mulai langkah Anda memiliki hunian impian di Sapphire Townhouse Purbalingga Purbalingga sekarang juga!
           </p>
+
           <div className="cta-buttons">
             <Link 
               href={linkWhatsApp} 
