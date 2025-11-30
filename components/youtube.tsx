@@ -32,41 +32,6 @@ export default function YouTube() {
 
                     {/* Kolom Kanan - Video Embed dengan Lazy Loading */}
                     <div className="youtube-video-wrapper">
-                        {!isVideoLoaded ? (
-                            <div
-                                onClick={() => setIsVideoLoaded(true)}
-                                style={{
-                                    position: 'relative',
-                                    width: '100%',
-                                    height: '400px',
-                                    backgroundImage: 'url(https://img.youtube.com/vi/TVDndFFiC54/sddefault.jpg)',
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                    cursor: 'pointer',
-                                    borderRadius: '12px',
-                                    overflow: 'hidden'
-                                }}
-                            >
-                                <div style={{
-                                    position: 'absolute',
-                                    top: '50%',
-                                    left: '50%',
-                                    transform: 'translate(-50%, -50%)',
-                                    width: '80px',
-                                    height: '80px',
-                                    backgroundColor: 'rgba(255, 0, 0, 0.9)',
-                                    borderRadius: '50%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
-                                }}>
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
-                                        <path d="M8 5v14l11-7z" />
-                                    </svg>
-                                </div>
-                            </div>
-                        ) : (
                             <iframe
                                 width="100%"
                                 height="400"
@@ -78,7 +43,6 @@ export default function YouTube() {
                                 className="youtube-video"
                                 loading="lazy"
                             ></iframe>
-                        )}
                     </div>
                 </div>
             </div>

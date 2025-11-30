@@ -12,7 +12,7 @@ export default function CallToAction() {
         <div className="cta-container">
           <h2 className="cta-title">Sudah Siap Tinggal Nyaman di Lokasi Paling Strategis Purbalingga?</h2>
           <p className="cta-description">
-            Mulai langkah Anda memiliki hunian impian di Sapphire Townhouse Purbalingga Purbalingga sekarang juga!
+            Mulai langkah Anda memiliki hunian impian di Sapphire Townhouse Purbalingga sekarang juga!
           </p>
 
           <div className="cta-buttons">

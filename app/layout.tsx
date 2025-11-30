@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   },
   keywords: [
     "Sapphire Town House Purbalingga",
-    "Perumahan Slawi",
-    "Rumah Slawi",
-    "Sapphire Serenity",
-    "Rumah Tegal",
-    "Perumahan Tegal",
+    "Perumahan Purbalingga",
+    "Rumah Purbalingga",
+    "Sapphire Town House Purbalingga",
+    "Rumah Purbalingga",
+    "Perumahan Purbalingga",
   ],
 }
 
